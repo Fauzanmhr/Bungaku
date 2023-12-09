@@ -20,8 +20,8 @@ export const Login = async (req, res) => {
         }
 
         req.session.userId = user.uuid;
-        const { uuid, name, email, role } = user;
-        res.status(200).json({ uuid, name, email, role });
+        const { uuid, name, email } = user;
+        res.status(200).json({ uuid, name, email });
     } catch (error) {
         console.error("Error in Login controller:", error);
         return res.status(500).json({ msg: "Internal Server Error" });
@@ -34,7 +34,7 @@ export const Me = async (req, res) =>{
         return res.status(401).json({msg: "Mohon login ke akun Anda!"});
     }
     const user = await User.findOne({
-        attributes:['uuid','name','email','role'],
+        attributes:['uuid','name','email'],
         where: {
             uuid: req.session.userId
         }
