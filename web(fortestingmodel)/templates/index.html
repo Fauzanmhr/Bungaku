@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classifier</title>
+</head>
+<body>
+<div style="text-align: center;">
+    <h1>Emang Boleh Se AI ini ?</h1>
+    </br>
+    <h2>Identifikasi</h2>
+
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if image_path %}
+        <p>Ini Bunga: {{ prediction }}</p>
+        <p>Uploaded Image</p>
+        <!-- Update the image path below -->
+        <img src="{{ url_for('static', filename=image_path.lstrip('static/')) }}" alt="Uploaded Image">
+    {% endif %}
+    </div>
+</body>
+</html>
