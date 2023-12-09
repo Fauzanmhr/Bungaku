@@ -38,6 +38,16 @@ curl -X GET localhost:3000/user/me
 
 # put user update
 curl -X PUT localhost:3000/user/update
+
+example:
+{
+    "name": "testing",
+    "email": "testing@gmail.com",
+    "password": "superman",
+    "confPassword": "superman",
+    "role": "free"
+}
+
 ```
 
 
