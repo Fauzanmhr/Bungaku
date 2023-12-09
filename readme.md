@@ -1,3 +1,4 @@
+```
 # get all flowers
 curl -X GET localhost:3000/flowers
 
@@ -18,6 +19,7 @@ curl -X GET localhost:3000/user/me
 
 # put user update
 curl -X PUT localhost:3000/user/update
+```
 
 
 
