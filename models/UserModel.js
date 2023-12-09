@@ -36,13 +36,6 @@ const Users = db.define('users',{
         validate:{
             notEmpty: true
         }
-    },
-    role: {
-        type: DataTypes.ENUM('premium', 'free'),
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
     }
 },{
     freezeTableName: true

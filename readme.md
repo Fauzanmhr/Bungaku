@@ -27,7 +27,6 @@ example:
     "email": "testing@gmail.com",
     "password": "1234567890",
     "confPassword": "1234567890",
-    "role": "free"
 }
 
 # delete user logout
@@ -45,7 +44,6 @@ example:
     "email": "testing@gmail.com",
     "password": "superman",
     "confPassword": "superman",
-    "role": "free"
 }
 
 ```
