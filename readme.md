@@ -1,52 +1,93 @@
+# Bungaku API Documentation
+
+## Get All Flowers
 ```
-# get all flowers
 curl -X GET localhost:3000/flowers
+```
+Retrieve information about all available flowers.
 
-# get flower data by name 
+## Get Flower Data by Name
+```
 curl -X GET localhost:3000/flower/:flower-name
+```
+Retrieve detailed information about a specific flower by providing its name.
 
-example:
-localhost:3000/flower/matahari
+**Example:**
+```
+curl -X GET localhost:3000/flower/matahari
+```
 
-# post login
+## User Authentication
+
+### Login
+```
 curl -X POST localhost:3000/login
+```
+Authenticate a user with their email and password.
 
-example:
-
+**Example:**
+```
 {
     "email": "testing@gmail.com",
     "password": "1234567890"
 }
+```
 
-# post register
+### Register
+```
 curl -X POST localhost:3000/register
+```
+Register a new user with their name, email, and password.
 
-example:
+**Example:**
+```
 {
     "name": "testing",
     "email": "testing@gmail.com",
     "password": "1234567890",
-    "confPassword": "1234567890",
+    "confPassword": "1234567890"
 }
-
-# delete user logout
-curl -X DELETE localhost:3000/logout
-
-# Get User Detail
-curl -X GET localhost:3000/user/me
-
-# put user update
-curl -X PUT localhost:3000/user/update
-
-example:
-{
-    "name": "testing",
-    "email": "testing@gmail.com",
-    "password": "superman",
-    "confPassword": "superman",
-}
-
 ```
 
+### Logout
+```
+curl -X DELETE localhost:3000/logout
+```
+Logout the currently authenticated user.
 
+## User Profile Management
 
+### Get User Detail
+```
+curl -X GET localhost:3000/user/me
+```
+Retrieve details of the currently authenticated user.
+
+### Update User Profile
+```bash
+curl -X PUT localhost:3000/user/update
+```
+Update user profile information. Use one of the following examples based on the field you want to update:
+
+- **Update Name:**
+  ```
+  {
+      "name": "New Name"
+  }
+  ```
+
+- **Update Email:**
+  ```
+  {
+      "email": "newemail@example.com",
+      "currentPassword": "current_password"
+  }
+  ```
+
+- **Update Password:**
+  ```
+  {
+      "newPassword": "new_password",
+      "currentPassword": "current_password"
+  }
+  ```
