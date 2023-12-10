@@ -39,8 +39,13 @@ app.use(UserRoute);
 app.use(AuthRoute);
 app.use(FlowerRoute);
 
-// store.sync();
+// Root route handler
+app.get('/', (req, res) => {
+    res.send('Bungaku-API is Active');
+});
 
-app.listen(process.env.APP_PORT, ()=> {
-    console.log('Server up and running...');
+const port = process.env.APP_PORT || 3000;
+app.listen(port, ()=> {
+    console.log(`Bungaku-Api Berjalan Pada Port ${port}`);
+    
 });
