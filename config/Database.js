@@ -3,17 +3,20 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const db = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASS, {
-  host: process.env.DB_HOST,
+const db = new Sequelize({
   dialect: "mysql",
-  pool: {
-    max: 5, // Maximum number of connection in pool
-    min: 0, // Minimum number of connection in pool
-    acquire: 30000, // The maximum time, in milliseconds, that pool will try to get connection before throwing error
-    idle: 10000 // The maximum time, in milliseconds, that a connection can be idle before being released
+  dialectOptions: {
+    socketPath: "process.env.DB_HOST"
   },
-  logging: false // Disable logging of SQL queries to the console
+  username: process.env.DB_USER,
+  password: "process.env.DB_PASS",
+  database: "process.env.DB_NAME",
+  pool: {
+    max: 5,
+    min: 0,
+    acquire: 30000,
+    idle: 10000
+  },
+  logging: false
 });
-
 export default db;
-
