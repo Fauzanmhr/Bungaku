@@ -29,14 +29,14 @@ app.use(session({
     saveUninitialized: true,
     store: store,
     cookie: {
-        secure: process.env.NODE_ENV === 'production', // set to true if using https
+        secure: process.env.NODE_ENV === 'production', // set to production if using https
         httpOnly: true,
         sameSite: 'strict',
-        maxAge: 3600000, // set an appropriate value for your session timeout
+        maxAge: 30 * 24 * 60 * 60 * 1000,
     }
 }));
 
-// Adjust the origin dynamically based on the environment
+
 const origin = process.env.NODE_ENV === 'production' ? 'https://yourproductiondomain.com' : 'http://localhost:3000';
 
 app.use(cors({
