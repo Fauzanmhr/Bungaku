@@ -12,7 +12,6 @@ connection between people and the environment and inspire a new generation of na
 ## Our Team
 
 <div align="center">
-  <h3>Our Team</h3>
   <h3>Team ID: C23-PS392</h3>
   <table align="center">
     <tr>
