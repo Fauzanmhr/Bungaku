@@ -8,7 +8,7 @@ Our team is motivated to create "Bungaku" because we believe that understanding 
 the natural world is essential for environmental awareness and conservation. We aim to make
 flower identification and learning accessible to everyone, turning it from a niche interest (a"vitamin") into a must-have tool (a "painkiller"). Through this project, we want to foster a deeper
 connection between people and the environment and inspire a new generation of natureenthusiasts and conservationists. "Bungaku" is not just an app; it's a step towards a more eco-conscious and informed society.
-
+## Bungaku Team
 <div align="center">
   <h3>Team ID: C23-PS392</h3>
   <table align="center">
