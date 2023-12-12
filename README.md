@@ -10,7 +10,6 @@ flower identification and learning accessible to everyone, turning it from a nic
 connection between people and the environment and inspire a new generation of natureenthusiasts and conservationists. "Bungaku" is not just an app; it's a step towards a more eco-conscious and informed society.
 
 <div align="center">
-  <h1>Bungaku Team<H1>
   <h3>Team ID: C23-PS392</h3>
   <table align="center">
     <tr>
