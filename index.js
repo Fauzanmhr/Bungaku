@@ -12,6 +12,9 @@ dotenv.config();
 
 const app = express();
 
+// Set trust proxy for secure cookies behind a proxy
+app.set('trust proxy', 1);
+
 const sessionStore = SequelizeStore(session.Store);
 
 const store = new sessionStore({
@@ -26,13 +29,21 @@ app.use(session({
     saveUninitialized: true,
     store: store,
     cookie: {
-        secure: 'auto'
+        secure: process.env.NODE_ENV === 'production', // set to true if using https
+        httpOnly: true,
+        sameSite: 'strict',
+        maxAge: 3600000, // set an appropriate value for your session timeout
     }
 }));
 
+// Adjust the origin dynamically based on the environment
+const origin = process.env.NODE_ENV === 'production' ? 'https://yourproductiondomain.com' : 'http://localhost:3000';
+
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:3000'
+    origin: origin,
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 app.use(express.json());
 app.use(UserRoute);
@@ -41,11 +52,10 @@ app.use(FlowerRoute);
 
 // Root route handler
 app.get('/', (req, res) => {
-    res.send('Bungaku-API is Active');
+    res.send('Bungaku-API Built By CH2-PR618');
 });
 
 const port = process.env.APP_PORT || 3000;
 app.listen(port, ()=> {
     console.log(`Bungaku-Api Berjalan Pada Port ${port}`);
-    
 });

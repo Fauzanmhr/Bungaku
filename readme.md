@@ -2,19 +2,35 @@
 
 ## Get All Flowers
 ```
-curl -X GET localhost:3000/flowers
+curl -X GET localhost:3000/flowers?lang={lang}
 ```
-Retrieve information about all available flowers.
-
-## Get Flower Data by Name
-```
-curl -X GET localhost:3000/flower/:flower-name
-```
-Retrieve detailed information about a specific flower by providing its name.
+Retrieve information about all available flowers with dual language support (Indonesia and English).
 
 **Example:**
 ```
-curl -X GET localhost:3000/flower/matahari
+curl -X GET localhost:3000/flowers?lang=en
+```
+```
+curl -X GET localhost:3000/flowers?lang=id
+```
+
+## Get Flower Data by Name
+```
+curl -X GET localhost:3000/flower/{flower-name}
+```
+Retrieve detailed information about a specific flower by providing its name with dual language support (Indonesia and English).
+
+Rules : 
+- if you search with indonesia language you need search with indonesia name of flower.
+- if you search with english language you need search with english name of flower.
+- otherwise if you not use any params language it will default to search on english database
+
+**Example:**
+```
+curl -X GET localhost:3000/flower/matahari?lang=id
+```
+```
+curl -X GET localhost:3000/flower/suflower?lang=en
 ```
 
 ## User Authentication
