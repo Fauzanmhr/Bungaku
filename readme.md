@@ -1,12 +1,39 @@
 # Bungaku API Documentation
 
-## Get All Flowers
-```
-curl -X GET localhost:3000/flowers?lang={lang}
-```
-Retrieve information about all available flowers with dual language support (Indonesia and English).
+**Bungaku** is a mobile app designed to enrich knowledge about local flowers by providing flower identification and educational content for each recognized flower. The app utilizes advanced image recognition technology and an extensive botanical database to offer users a comprehensive learning experience.
 
-**Example:**
+## Table of Contents
+- [Overview](#overview)
+- [API Endpoints](#api-endpoints)
+  - [1. Get All Flowers](#1-get-all-flowers)
+  - [2. Get Flower Data by Name](#2-get-flower-data-by-name)
+  - [3. User Authentication](#3-user-authentication)
+    - [3.1 Login](#31-login)
+    - [3.2 Register](#32-register)
+    - [3.3 Logout](#33-logout)
+  - [4. User Profile Management](#4-user-profile-management)
+    - [4.1 Get User Detail](#41-get-user-detail)
+    - [4.2 Update User Profile](#42-update-user-profile)
+- [Authentication and Authorization](#authentication-and-authorization)
+- [Dependencies](#dependencies)
+- [Local Deployment](#local-deployment)
+- [Contributing](#contributing)
+
+# Overview
+
+This API serves as the backend for the Bungaku mobile app, providing endpoints for retrieving flower information, user authentication, and user profile management.
+
+# API Endpoints
+
+### 1. Get All Flowers
+
+```
+curl -X GET http://localhost:3000/flowers?lang={lang}
+```
+
+Retrieve information about all available flowers with dual language support (Indonesian and English).
+
+***Example:***
 ```
 curl -X GET localhost:3000/flowers?lang=en
 ```
@@ -14,49 +41,55 @@ curl -X GET localhost:3000/flowers?lang=en
 curl -X GET localhost:3000/flowers?lang=id
 ```
 
-## Get Flower Data by Name
-```
-curl -X GET localhost:3000/flower/{flower-name}
-```
-Retrieve detailed information about a specific flower by providing its name with dual language support (Indonesia and English).
+### 2. Get Flower Data by Name
 
-Rules : 
-- if you search with indonesia language you need search with indonesia name of flower.
-- if you search with english language you need search with english name of flower.
-- otherwise if you not use any params language it will default to search on english database
+```
+curl -X GET http://localhost:3000/flower/{flower-name}
+```
 
-**Example:**
+Retrieve detailed information about a specific flower by providing its name with dual language support (Indonesian and English).
+
+Rules :
+- If you search with Indonesian language, you need to search with the Indonesian name of the flower.
+- If you search with English language, you need to search with the English name of the flower.
+- Otherwise, if you do not use any language parameter, it will default to searching in the English database.
+
+***Example:***
 ```
 curl -X GET localhost:3000/flower/matahari?lang=id
 ```
 ```
-curl -X GET localhost:3000/flower/suflower?lang=en
+curl -X GET localhost:3000/flower/sunflower?lang=en
 ```
 
-## User Authentication
+### 3. User Authentication
 
-### Login
+#### 3.1 Login
+
 ```
-curl -X POST localhost:3000/login
+curl -X POST http://localhost:3000/login
 ```
+
 Authenticate a user with their email and password.
 
-**Example:**
-```
+***Example:***
+```json
 {
     "email": "testing@gmail.com",
     "password": "1234567890"
 }
 ```
 
-### Register
+#### 3.2 Register
+
 ```
-curl -X POST localhost:3000/register
+curl -X POST http://localhost:3000/register
 ```
+
 Register a new user with their name, email, and password.
 
-**Example:**
-```
+***Example:***
+```json
 {
     "name": "testing",
     "email": "testing@gmail.com",
@@ -65,35 +98,43 @@ Register a new user with their name, email, and password.
 }
 ```
 
-### Logout
+#### 3.3 Logout
+
 ```
-curl -X DELETE localhost:3000/logout
+curl -X DELETE http://localhost:3000/logout
 ```
+
 Logout the currently authenticated user.
 
-## User Profile Management
+### 4. User Profile Management
 
-### Get User Detail
+#### 4.1 Get User Detail
+
 ```
-curl -X GET localhost:3000/user/me
+curl -X GET http://localhost:3000/user/me
 ```
+
 Retrieve details of the currently authenticated user.
 
-### Update User Profile
-```bash
-curl -X PUT localhost:3000/user/update
+#### 4.2 Update User Profile
+
 ```
-Update user profile information. Use one of the following examples based on the field you want to update:
+curl -X PUT http://localhost:3000/user/update
+```
+
+Update user profile information. Use one of the provided examples based on the field you want to update.
+
+***Example:***
 
 - **Update Name:**
-  ```
+  ```json
   {
       "name": "New Name"
   }
   ```
 
 - **Update Email:**
-  ```
+  ```json
   {
       "email": "newemail@example.com",
       "currentPassword": "current_password"
@@ -101,9 +142,46 @@ Update user profile information. Use one of the following examples based on the 
   ```
 
 - **Update Password:**
-  ```
+  ```json
   {
       "newPassword": "new_password",
       "currentPassword": "current_password"
   }
   ```
+
+## Authentication and Authorization
+
+Authentication and Authorization is handled using the `express-session` middleware, creating sessions for authenticated users.
+
+
+# Dependencies
+
+- **Express**: Web application framework for Node.js.
+- **Cors**: Middleware for enabling Cross-Origin Resource Sharing (CORS).
+- **Express Session**: Middleware for handling user sessions.
+- **Dotenv**: Loads environment variables from a `.env` file into `process.env`.
+- **Sequelize**: An ORM (Object-Relational Mapping) library for Node.js.
+- **Connect-Session-Sequelize**: A Sequelize session store for Express Session.
+- **Argon2**: A secure and efficient password hashing library.
+
+# Local Deployment
+
+1. Install dependencies:
+
+```
+npm install express cors express-session dotenv sequelize connect-session-sequelize
+```
+
+2. Set up your `.env` file with appropriate values.
+
+3. Run your application:
+
+```
+node index.js
+```
+
+Now, your Bungaku API should be running locally on `http://localhost:3000`. Test the API using tools like `curl` or Postman.
+
+# Contributing
+
+Feel free to contribute to the development of Bungaku API by submitting issues, suggesting improvements, or opening pull requests. We welcome your ideas and collaboration to make this project even better!
