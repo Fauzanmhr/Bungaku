@@ -24,7 +24,7 @@ connection between people and the environment and inspire a new generation of na
       <td>Nicodemus Alfriyanto Riski Wibowo</td>
       <td>Mobile Development</td>
       <td>
-        <a href="https://www.linkedin.com/in/your_linkedin_profile"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+        <a href="https://www.linkedin.com/in/nicodemusalf/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
         <a href="https://github.com/your_github_profile"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
       <td>Institut Teknologi Telkom Purwokerto</td>
@@ -34,7 +34,7 @@ connection between people and the environment and inspire a new generation of na
       <td>Fania Malik</td>
       <td>Cloud Computing</td>
       <td>
-        <a href="https://www.linkedin.com/in/your_linkedin_profile"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+        <a href="https://www.linkedin.com/in/faniamalik"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
         <a href="https://github.com/your_github_profile"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
       <td>Universitas Tidar</td>
@@ -44,7 +44,7 @@ connection between people and the environment and inspire a new generation of na
       <td>Muhammad Fauzan Muharram</td>
       <td>Cloud Computing</td>
       <td>
-        <a href="https://www.linkedin.com/in/your_linkedin_profile"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+        <a href="https://www.linkedin.com/in/fauzanmhr"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
         <a href="https://github.com/your_github_profile"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
       <td>Politeknik Negeri Jakarta</td>
@@ -54,7 +54,7 @@ connection between people and the environment and inspire a new generation of na
       <td>Galih Nir Setiawan</td>
       <td>Cloud Computing</td>
       <td>
-        <a href="https://www.linkedin.com/in/your_linkedin_profile"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+        <a href="https://www.linkedin.com/in/galihnirsetiawan"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
         <a href="https://github.com/your_github_profile"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
       <td>Institut Teknologi Indonesia</td>
