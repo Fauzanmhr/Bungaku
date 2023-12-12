@@ -25,7 +25,7 @@ connection between people and the environment and inspire a new generation of na
       <td>Mobile Development</td>
       <td>
         <a href="https://www.linkedin.com/in/nicodemusalf/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-        <a href="https://github.com/your_github_profile"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
+        <a href="https://github.com/ncccdms"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
       <td>Institut Teknologi Telkom Purwokerto</td>
     </tr>
@@ -35,7 +35,7 @@ connection between people and the environment and inspire a new generation of na
       <td>Cloud Computing</td>
       <td>
         <a href="https://www.linkedin.com/in/faniamalik"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-        <a href="https://github.com/your_github_profile"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
+        <a href="https://github.com/FaniaMalik"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
       <td>Universitas Tidar</td>
     </tr>
@@ -45,7 +45,7 @@ connection between people and the environment and inspire a new generation of na
       <td>Cloud Computing</td>
       <td>
         <a href="https://www.linkedin.com/in/fauzanmhr"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-        <a href="https://github.com/your_github_profile"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
+        <a href="https://github.com/Fauzanmhr"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
       <td>Politeknik Negeri Jakarta</td>
     </tr>
