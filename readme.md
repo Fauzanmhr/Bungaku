@@ -169,7 +169,7 @@ Authentication and Authorization is handled using the `express-session` middlewa
 1. Install dependencies:
 
 ```
-npm install express cors express-session dotenv sequelize connect-session-sequelize
+npm install express cors express-session dotenv sequelize connect-session-sequelize argon2
 ```
 
 2. Set up your `.env` file with appropriate values.
