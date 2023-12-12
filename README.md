@@ -1,6 +1,6 @@
 # Bungaku By Capstone CH2-PR618
 
-![Capstone CH2-PR618](./logo.png)
+![Capstone CH2-PR618](./bungaku.png)
 
 ## Project Description
 
