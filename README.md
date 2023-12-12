@@ -13,8 +13,9 @@ connection between people and the environment and inspire a new generation of na
 
 | **Name**                         | **Bangkit ID**  |  **Learning Path**   | **LinkedIn / GitHub**                          | **University**                                |
 | --------------------------       | --------------- | -------------------- | --------------------------------------------- | ---------------------------------------------- |
-| Nicodemus Alfriyanto Riski Wibowo | **A120BSY2239** | Mobile Development   | [LinkedIn](#)/[GitHub](#)                     | Institut Teknologi Telkom Purwokerto          |
-| Fania Malik                       | **C329BSX4373** | Cloud Computing      | [LinkedIn](#)/[GitHub](#)                     | Universitas Tidar                             |
-| Muhammad Fauzan Muharram          | **C128BSY3279** | Cloud Computing      | [LinkedIn](#)/[GitHub](#)                     | Politeknik Negeri Jakarta                     |
-| Galih Nir Setiawan                | **C115BSY4268** | Cloud Computing      | [LinkedIn](#)/[GitHub](#)                     | Institut Teknologi Indonesia                  |
+| Nicodemus Alfriyanto Riski Wibowo | **A120BSY2239** | Mobile Development   | [![LinkedIn](https://img.icons8.com/color/48/000000/linkedin.png)](https://www.linkedin.com/in/your_linkedin_profile)/[![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png)](https://github.com/your_github_profile)                     | Institut Teknologi Telkom Purwokerto          |
+| Fania Malik                       | **C329BSX4373** | Cloud Computing      | [![LinkedIn](https://img.icons8.com/color/48/000000/linkedin.png)](https://www.linkedin.com/in/your_linkedin_profile)/[![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png)](https://github.com/your_github_profile)                     | Universitas Tidar                             |
+| Muhammad Fauzan Muharram          | **C128BSY3279** | Cloud Computing      | [![LinkedIn](https://img.icons8.com/color/48/000000/linkedin.png)](https://www.linkedin.com/in/your_linkedin_profile)/[![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png)](https://github.com/your_github_profile)                     | Politeknik Negeri Jakarta                     |
+| Galih Nir Setiawan                | **C115BSY4268** | Cloud Computing      | [![LinkedIn](https://img.icons8.com/color/48/000000/linkedin.png)](https://www.linkedin.com/in/your_linkedin_profile)/[![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png)](https://github.com/your_github_profile)                     | Institut Teknologi Indonesia                  |
+
 
