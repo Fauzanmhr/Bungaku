@@ -1,18 +1,36 @@
-# Bungaku By Capstone CH2-PR618
+<div align="center"> <h1> Bungaku By Capstone CH2-PR618 <h1> </div>
 
 ![Capstone CH2-PR618](./bungaku.png)
 
-## Project Description
+<div align="center"> <h2> Project Overview </h2> </div>
 
-Our team is motivated to create "Bungaku" because we believe that understanding and appreciating
-the natural world is essential for environmental awareness and conservation. We aim to make
-flower identification and learning accessible to everyone, turning it from a niche interest (a"vitamin") into a must-have tool (a "painkiller"). Through this project, we want to foster a deeper
-connection between people and the environment and inspire a new generation of natureenthusiasts and conservationists. "Bungaku" is not just an app; it's a step towards a more eco-conscious and informed society.
-## Bungaku Team
+Welcome to "Bungaku," a project driven by our team's passion for fostering environmental awareness and conservation through a deeper understanding and appreciation of the natural world. We're on a mission to transform flower identification and learning from a niche interest (a "vitamin") into an indispensable tool (a "painkiller"). "Bungaku" isn't just an app; it's a catalyst for creating a more eco-conscious and informed society.
+
 <div align="center">
-  <h3>Team ID: C23-PS392</h3>
+  <h2>Explore Project Code</h2>
+</div>
+
+### Cloud Computing
+- [Cloud Computing Branch](https://github.com/Fauzanmhr/Bungaku/tree/cloud-computing)
+
+### Machine Learning
+- [Machine Learning Branch](https://github.com/Fauzanmhr/Bungaku/tree/machine-learning)
+
+### Mobile Development
+- [Mobile Development Branch](https://github.com/Fauzanmhr/Bungaku/tree/mobile-development)
+
+<br>
+
+<div align="center"> <h2>Meet the Bungaku Team</h2> </div>
+
+<div align="center">
+ 
   <table align="center">
     <tr>
+     <th colspan="5">
+    <h3 align="center">Team ID: C23-PS392</h3>
+  </th>
+</tr>
       <th>Bangkit ID</th>
       <th>Name</th>
       <th>Learning Path</th>
@@ -61,5 +79,3 @@ connection between people and the environment and inspire a new generation of na
     </tr>
   </table>
 </div>
-
-
