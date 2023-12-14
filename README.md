@@ -1,9 +1,5 @@
 <div align="center"> <h1> Bungaku By Capstone CH2-PR618 <h1> </div>
 
-![Capstone CH2-PR618](./bungaku.png)
-
-<div align="center"> <h2> Project Overview </h2> </div>
-
 Welcome to "Bungaku," a project driven by our team's passion for fostering environmental awareness and conservation through a deeper understanding and appreciation of the natural world. We're on a mission to transform flower identification and learning from a niche interest (a "vitamin") into an indispensable tool (a "painkiller"). "Bungaku" isn't just an app; it's a catalyst for creating a more eco-conscious and informed society.
 
 <div align="center">
