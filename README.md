@@ -1,26 +1,23 @@
-<center> <h1> Bungaku By Capstone CH2-PR618  </h1> </center>
-
-Welcome to "Bungaku," a project driven by our team's passion for fostering environmental awareness and conservation through a deeper understanding and appreciation of the natural world. We're on a mission to transform flower identification and learning from a niche interest (a "vitamin") into an indispensable tool (a "painkiller"). "Bungaku" isn't just an app; it's a catalyst for creating a more eco-conscious and informed society.
-
-<div align="center">
-  <h2>Explore Project Code</h2>
-</div>
-
-### Cloud Computing
-- [Cloud Computing Branch](https://github.com/Fauzanmhr/Bungaku/tree/cloud-computing)
-
-### Machine Learning
-- [Machine Learning Branch](https://github.com/Fauzanmhr/Bungaku/tree/machine-learning)
-
-### Mobile Development
-- [Mobile Development Branch](https://github.com/Fauzanmhr/Bungaku/tree/mobile-development)
-
+#Bungaku By Capstone CH2-PR618
 <br>
 
-<div align="center"> <h2>Meet the Bungaku Team</h2> </div>
+##Project Overview
 
-<div align="center">
- 
+Welcome to "Bungaku," a project driven by our team's passion for fostering environmental awareness and conservation through a deeper understanding and appreciation of the natural world. We're on a mission to transform flower identification and learning from a niche interest (a "vitamin") into an indispensable tool (a "painkiller"). "Bungaku" isn't just an app; it's a catalyst for creating a more eco-conscious and informed society.
+<br>
+##Explore Project Code
+
+#### Cloud Computing
+- [Cloud Computing Branch](https://github.com/Fauzanmhr/Bungaku/tree/cloud-computing)
+
+#### Machine Learning
+- [Machine Learning Branch](https://github.com/Fauzanmhr/Bungaku/tree/machine-learning)
+
+#### Mobile Development
+- [Mobile Development Branch](https://github.com/Fauzanmhr/Bungaku/tree/mobile-development)
+<br>
+##Meet the Bungaku Team
+
   <table align="center">
     <tr>
      <th colspan="5">
