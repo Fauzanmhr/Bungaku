@@ -3,7 +3,8 @@ bellflower
 black_eyed_susan
 calendula
 california_poppy
-common_daisy
+carnation
+daisy
 coreopsis
 dandelion
 iris
