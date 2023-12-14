@@ -44,5 +44,3 @@ The converted model is saved to a .tflite file in the specified directory.
 ## Conclusion
 
 The script successfully develops and trains a flower classification model using transfer learning with MobileNetV2. The resulting model is converted to TensorFlow Lite, making it suitable for deployment on resource-constrained environments, such as mobile devices or edge devices.
-
-**Note:** Ensure that the directory paths and the number of classes in the final Dense layer match your specific dataset and requirements.
