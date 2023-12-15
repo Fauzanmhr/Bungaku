@@ -33,7 +33,7 @@ The model is compiled with the Adam optimizer, categorical crossentropy loss, an
 ## Model Training
 
 - The model is trained using the `fit` method on the training generator.
-- The number of epochs is set to 10.
+- The number of epochs is set to 7.
 - Validation data is provided to monitor model performance on unseen data.
 
 ## TensorFlow Lite Conversion
