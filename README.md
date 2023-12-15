@@ -7,7 +7,7 @@ The script focuses on developing a flower classification model using a pre-train
 ## Data Preparation
 - **Dataset:** [Flower Classification Dataset](https://www.kaggle.com/datasets/marquis03/flower-classification/code)
 - Training and validation data directories are specified.
-- Image dimensions are set to 256x256 pixels.
+- Image dimensions are set to 224x224 pixels.
 - Batch size for training is set to 32.
 - `ImageDataGenerator` is used for data augmentation on the training set, including rescaling, shearing, zooming, and horizontal flipping.
 
