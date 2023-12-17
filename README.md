@@ -15,7 +15,6 @@ Welcome to "Bungaku," a project driven by our team's passion for fostering envir
 
 #### Mobile Development
 - [Mobile Development Branch](https://github.com/Fauzanmhr/Bungaku/tree/mobile-development)
-<br>
 
 ## Meet the Bungaku Team
 
